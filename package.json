@@ -1,6 +1,6 @@
 {
   "name": "rate-limited-image-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Will load a series of images while adhering to rate limits",
   "main": "index.js",
   "license": "MIT",
