@@ -29,7 +29,7 @@ loader(images, function(images) {
 ## Install
 
 ```sh
-npm install rate-limited-image-laoder --save
+npm install rate-limited-image-loader --save
 ```
 
 ## Usage
