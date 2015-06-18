@@ -38,7 +38,7 @@ npm install rate-limited-image-loader --save
 
 #### `loader = require('rate-limited-image-loader')(imagesToLoad, milliseconds)`
 
-Returns a function which can be used to load images. This loader function is based on the module `async-image-loader`. The difference being the image load will be rate limited. `imagesToLoad` is the count of images that can be loaded in `milliseconds`.
+Returns a function which can be used to load images. This loader function is based on the module [`async-image-loader`](https://github.com/Jam3/async-image-loader). The difference being the image load will be rate limited. `imagesToLoad` is the count of images that can be loaded in `milliseconds`.
 
 For instance with the Google Maps Image API you can load 50 images per minute your loader would be constructed like this:
 ```javascript
