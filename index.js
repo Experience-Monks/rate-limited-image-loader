@@ -35,7 +35,9 @@ module.exports = function getRateLimitedImageLoader(countImages, milliseconds) {
             doLoad();
           } else {
 
-            callback(loadedImages);
+            if(callback) {
+              callback(loadedImages);
+            }
           }
         })
         .on('progress', function(info) {
